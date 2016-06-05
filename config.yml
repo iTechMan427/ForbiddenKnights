@@ -1,0 +1,14 @@
+# ForbiddenKnights by Chris Younkin
+Server Hub: 'false'
+Training Level: 'false'
+Players Needed to Start: '1'
+Delay: '60'
+
+Location: '-1300 45 -92.5'
+Items: 'iron_sword,1'
+
+Text_1: 'test - test'
+TextName_1: 'person'
+MobType_1: 'zombie'
+MobLocation_1: '-1305 45 -100'
+MobAmount_1: '1'

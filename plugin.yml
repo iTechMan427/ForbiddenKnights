@@ -1,0 +1,12 @@
+name: ForbiddenKnights
+main: org.ChrisYounkin.EndYearProject.MainClass
+version: 1.9_2
+author: ChrisYounkin
+depend: [Citizens, Sentry, Denizen]
+commands:
+  level:
+    description: Starts a level
+  game:
+    description: Teleports player to server
+  hub:
+    description: Teleports player to hub
