@@ -54,7 +54,8 @@ ArrayList<Entity> entityArray = new ArrayList<Entity>();
       player = tempPlayer;
     }
     NPCClass trainerNPC = new NPCClass(player, "player", location);
-    trainerNPC.lookTwardsPlayerAtBegin(mainClass);
+    trainerNPC.setName("Trainer");
     trainerNPC.spawnNPC();
+    trainerNPC.lookTwardsPlayerAtBegin(mainClass);
   }
 }

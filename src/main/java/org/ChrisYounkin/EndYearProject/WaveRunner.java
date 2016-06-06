@@ -34,7 +34,7 @@ public class WaveRunner
       levelController.giveItemsToPlayers(item);
     }
     if (mainClass.getIfTrainingFromConfig()) {
-      levelController.spawnTrainerNPC(new Location(mainClass.getServer().getWorld("world"), -1660.5D, 48.0D, 0.0D));
+      levelController.spawnTrainerNPC(new Location(mainClass.getServer().getWorld("world"), -1660.5, 48, 0));
     }
   }
   

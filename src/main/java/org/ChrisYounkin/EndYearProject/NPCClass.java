@@ -42,7 +42,12 @@ public class NPCClass
     return myNPC.getEntity();
   }
 
-public void spawnNPC()
+  public void setName(String name) 
+  {
+    this.name = name;
+  }
+  
+  public void spawnNPC()
     throws Exception
   {
     for (int i = 0; i < amount; i++)
